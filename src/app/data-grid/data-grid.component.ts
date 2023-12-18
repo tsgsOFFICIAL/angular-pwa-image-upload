@@ -16,7 +16,7 @@ export class DataGridComponent {
   }
 
   showDetailsDialog(row: any): void {
-    this.selectedRow = { ...row }; // Ensure it's a copy of the object
+    this.selectedRow = { ...row, originalImageUrl: URL.createObjectURL(row.file) };
   }
 
   closeDialog(): void {
@@ -24,9 +24,6 @@ export class DataGridComponent {
   }
 
   getThumbnailUrl(row: any): string {
-    // Replace 'original' with the logic to generate a thumbnail URL based on the original image URL
-    // For simplicity, we assume the original image is in the same folder
-    const originalUrl = row.file.name;
-    return originalUrl.replace('original', 'thumbnail'); // Replace 'original' with the appropriate path or logic
+    return URL.createObjectURL(row.file);
   }
 }

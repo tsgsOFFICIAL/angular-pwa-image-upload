@@ -1,5 +1,7 @@
-<div class="dialog">
-    <h2>{{ data.file.name }} Details</h2>
-    <p>File Size: {{ data.file.size }} bytes</p>
+<div class="dialog" [ngClass]="{'dialog-closing': isAnimating}" (animationend)="onTransitionEnd()">
+    <h2>{{ data?.file.name }} Details</h2>
+    <img [src]="data?.originalImageUrl" alt="{{ data?.file.name }}">
+    <p>File Size: {{ fileSizeInMB() | number: '1.2-2' }} MB</p>
     <!-- Add more details as needed -->
+    <button (click)="startClosingAnimation()">Close</button>
 </div>

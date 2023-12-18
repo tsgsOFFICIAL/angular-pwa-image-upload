@@ -1,0 +1,44 @@
+img {
+    height: 30vh;
+}
+
+button {
+    background-color: #696969;
+    color: ghostwhite;
+    padding: .169rem .4rem;
+    border: none;
+    border-radius: .3rem;
+}
+
+.dialog {
+    /* Other styles... */
+    animation: fadeInOut 0.3s ease-in-out;
+}
+
+.dialog-closing {
+    animation: fadeOut 0.3s ease-in-out forwards;
+}
+
+@keyframes fadeInOut {
+    from {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    to {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+}

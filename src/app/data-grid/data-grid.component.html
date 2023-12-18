@@ -1,6 +1,6 @@
 <div class="data-grid">
     <div *ngFor="let row of imageData" class="grid-item" (click)="showDetailsDialog(row)">
-        <img [src]="getThumbnailUrl(row)" alt="{{ row.file.name }}">
+        <img class="mini" [src]="getThumbnailUrl(row)" alt="{{ row.file.name }}">
         {{ row.file.name }}
     </div>
 </div>

@@ -4,7 +4,9 @@
 }
 
 .grid-item {
-    flex: 0 0 calc(33.33% - 10px);
+    display: flex;
+    align-items: center;
+    flex: 0 0 calc(20% - 10px);
     /* Adjust the width based on your preference */
     margin: 5px;
     padding: 10px;
@@ -14,4 +16,10 @@
 
 .grid-item:hover {
     background-color: #f0f0f0;
+}
+
+.mini {
+    aspect-ratio: 1/1;
+    width: 10%;
+    padding-right: .69rem;
 }

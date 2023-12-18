@@ -11,8 +11,10 @@ export class ImageUploadComponent {
 
   onFileChange(event: any): void {
     const file = event.target.files[0];
-    // Handle file upload logic here, e.g., save to server or local storage
-    // For simplicity, we'll just add the file data to the service
-    this.imageDataService.addImageData(file);
+
+    if (file) {
+      // For simplicity, we'll just add the file data to the service
+      this.imageDataService.addImageData(file);
+    }
   }
 }
