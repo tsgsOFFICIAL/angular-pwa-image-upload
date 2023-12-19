@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1702972852294,
+  "timestamp": 1702972980604,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main-KKGBCDGD.js",
+        "/main-N2RJVATB.js",
         "/manifest.webmanifest",
         "/polyfills-LZBJRJJE.js",
         "/styles-QKZR4LKS.css"
@@ -51,8 +51,8 @@
     "/assets/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
     "/assets/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
     "/favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
-    "/index.html": "1adab0b0a125498da5ee63cd9390800ce08d52a6",
-    "/main-KKGBCDGD.js": "de86a37be6004d8a67698c7a19f102a27ea8fa47",
+    "/index.html": "f8a5269945ae579e016b5027d05850421f6acf31",
+    "/main-N2RJVATB.js": "188ed62d798ac1efbfba9b8a1830b99e2623a733",
     "/manifest.webmanifest": "06b8413c54c52fa02843b205c2017c5ae22ae0f5",
     "/polyfills-LZBJRJJE.js": "fda1c82c5c620f1fa442f687b3df45a037f6fcc9",
     "/styles-QKZR4LKS.css": "892330e660d8380441939aeb49a19831c61a9e1c"
