@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1702973283314,
+  "timestamp": 1702973508633,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main-TRALDYIP.js",
+        "/main-7K4MUGOE.js",
         "/manifest.webmanifest",
         "/polyfills-LZBJRJJE.js",
         "/styles-QKZR4LKS.css"
@@ -51,8 +51,8 @@
     "/assets/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
     "/assets/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
     "/favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
-    "/index.html": "511d55780cc8ac39035ea49eb957c7c7f455012e",
-    "/main-TRALDYIP.js": "14b724fa0a88c98f1471458a805b751e160e3842",
+    "/index.html": "273d15ef375cb57c2925d6850ce3a2b44cbe0515",
+    "/main-7K4MUGOE.js": "2177ab06aaa388b3618ce6a3e6e3691416ccd91e",
     "/manifest.webmanifest": "06b8413c54c52fa02843b205c2017c5ae22ae0f5",
     "/polyfills-LZBJRJJE.js": "fda1c82c5c620f1fa442f687b3df45a037f6fcc9",
     "/styles-QKZR4LKS.css": "892330e660d8380441939aeb49a19831c61a9e1c"
