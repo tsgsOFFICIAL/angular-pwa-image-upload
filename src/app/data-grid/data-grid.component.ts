@@ -26,4 +26,8 @@ export class DataGridComponent {
   getThumbnailUrl(row: any): string {
     return URL.createObjectURL(row.file);
   }
+
+  fileNameWithoutExtension(row: any): string {
+    return row.file.name.replace(/\.[^/.]+$/, "");
+  }
 }

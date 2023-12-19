@@ -3,7 +3,7 @@ import { Component, EventEmitter, Input, Output, ElementRef } from '@angular/cor
 @Component({
   selector: 'app-image-dialog',
   templateUrl: './image-dialog.component.html',
-  styleUrls: ['./image-dialog.component.css']
+  styleUrl: './image-dialog.component.css'
 })
 export class ImageDialogComponent {
   @Input() data: any;
@@ -31,5 +31,13 @@ export class ImageDialogComponent {
 
   fileSizeInMB(): number {
     return this.data.file.size / (1024 * 1024); // Convert bytes to megabytes
+  }
+
+  fileNameWithoutExtension(): string {
+    return this.data.file.name.replace(/\.[^/.]+$/, '');
+  }
+
+  fileType(): string {
+    return this.data.file.type.replace(/^.*\//, '');
   }
 }
