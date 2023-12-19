@@ -30,8 +30,6 @@ export class ImageDialogComponent {
   }
 
   fileSizeInMB(): number {
-    console.log(this.data.file);
-
     return this.data.file.size / (1024 * 1024); // Convert bytes to megabytes
   }
 
