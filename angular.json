@@ -23,7 +23,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/angular-pwa-image-upload",
+            "outputPath": "dist",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -100,6 +100,14 @@
               "src/styles.css"
             ],
             "scripts": []
+          }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "https://tsgsofficial.github.io/angular-pwa-image-upload/",
+            "name": "tsgsOFFICIAL",
+            "email": "marcusproman0507@gmail.com"
           }
         }
       }

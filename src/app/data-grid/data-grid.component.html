@@ -1,7 +1,7 @@
 <div class="data-grid">
     <div *ngFor="let row of imageData" class="grid-item" (click)="showDetailsDialog(row)">
-        <img class="mini" [src]="getThumbnailUrl(row)" alt="{{ row.file.name }}">
-        {{ row.file.name }}
+        <img class="mini" [src]="getThumbnailUrl(row)" alt="{{ fileNameWithoutExtension(row) }}">
+        {{ fileNameWithoutExtension(row) }}
     </div>
 </div>
 <app-image-dialog *ngIf="selectedRow" [data]="selectedRow" (closeDialog)="closeDialog()"></app-image-dialog>
